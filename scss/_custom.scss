@@ -1,0 +1,38 @@
+.navbar{
+  margin-bottom: 0;
+  .fa{
+    font-size: 20px;
+  }
+}
+
+.showcase{
+  background: url(../connectingThoughts.jfif) no-repeat 0 -100px  ;
+  height: 600px;
+  padding: 50px;
+  margin-top:50px;
+
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 18px;
+    font-family: cursive;
+  }
+  .container{
+    background: #fff;
+    padding: 20px;
+    opacity: 0.6;
+  }
+}
+
+.section-a{
+  padding: 30px ;
+  text-align: center;
+  background: $main-color;
+  i,h3{
+    color: white;
+  }
+  p{
+    color: #fff;
+  }
+}
