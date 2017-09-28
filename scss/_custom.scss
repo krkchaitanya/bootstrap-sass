@@ -1,6 +1,6 @@
 .navbar{
   overflow: hidden;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   .fa{
     font-size: 20px;
   }
@@ -28,7 +28,7 @@
 }
 
 .section-a{
-  padding: 30px ;
+  padding: 50px ;
   text-align: center;
   background: $main-color;
   i,h3{
@@ -54,9 +54,34 @@
 }
 
 .section-c{
-  padding: 10px;
+  padding: 30px;
   h3,p{
     color: white;
   }
   background: $main-color;
+
+  .btn{
+    background: darken($main-color,10%);
+  }
+}
+
+footer{
+  padding: 30px;
+  background-color: darken($main-color,10%);
+  p{
+    color: grey;
+  }
+}
+
+.main{
+  margin-top: 0px;
+  background: url(../connectingThoughts.jfif) no-repeat 0 -200px;
+  padding: 60px;
+  .panel-title{
+    padding: 10px;
+    color: white;
+  }
+  p{
+    color: white;
+  }
 }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .navbar {
   overflow: hidden;
-  margin-bottom: 0; }
+  margin-bottom: 0px; }
   .navbar .fa {
     font-size: 20px; }
 
@@ -22,7 +22,7 @@
     opacity: 0.6; }
 
 .section-a {
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   background: #3d3b37; }
   .section-a i, .section-a h3 {
@@ -41,9 +41,27 @@
   color: white; }
 
 .section-c {
-  padding: 10px;
+  padding: 30px;
   background: #3d3b37; }
   .section-c h3, .section-c p {
+    color: white; }
+  .section-c .btn {
+    background: #22211f; }
+
+footer {
+  padding: 30px;
+  background-color: #22211f; }
+  footer p {
+    color: grey; }
+
+.main {
+  margin-top: 0px;
+  background: url(../connectingThoughts.jfif) no-repeat 0 -200px;
+  padding: 60px; }
+  .main .panel-title {
+    padding: 10px;
+    color: white; }
+  .main p {
     color: white; }
 
 /*!
